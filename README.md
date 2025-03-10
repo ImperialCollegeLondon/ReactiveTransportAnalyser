@@ -18,3 +18,12 @@ This repository contains a suite of tools and scripts designed to analyze reacti
    ```bash
    git clone https://github.com/yourusername/reactive-transport-analyzer.git
    cd reactive-transport-analyzer
+
+2. **Clone the Repository**:
+   ```bash
+   pip install -r requirements.txt
+## Usage
+1. **Load Experimental Data:**:
+      ```bash
+from data_loader import load_carbonate_data
+data = load_carbonate_data('path_to_data.csv')
