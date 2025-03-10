@@ -1,3 +1,20 @@
 # ReactiveTransportAnalyser
+# Reactive Transport Analyzer for CO₂ Reactions
 
-This is reactive Transport code developed for...
+## Overview
+
+This repository contains a suite of tools and scripts designed to analyze reactive transport processes involving CO₂ reactions in carbonate aquifers and well cement. The suite is based on research presented at the 25th Annual Imperial College Pore-Scale Imaging and Modelling Consortium, focusing on the interaction of CO₂ with multimineral carbonate systems and well cement.
+
+## Key Features
+
+- **Multimineral Carbonate Dissolution Analysis**: Tools to analyze the impact of mineral spatial distribution on CO₂ dissolution rates in carbonate rocks.
+- **Cement Dissolution and Precipitation Analysis**: Tools to investigate the effect of dissolution and precipitation on cement permeability during exposure to CO₂ and carbonic acid.
+- **Experimental Data Integration**: Integration of experimental data from CO₂ flooding apparatus and micro-CT scans.
+- **Reaction Rate Analysis**: Analysis of effective reaction rates considering mass transfer limitations and mineral spatial distribution.
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/reactive-transport-analyzer.git
+   cd reactive-transport-analyzer
