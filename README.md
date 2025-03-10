@@ -23,7 +23,7 @@ This repository contains a suite of tools and scripts designed to analyze reacti
    ```bash
    pip install -r requirements.txt
 ## Usage
-[porefoam1f][https://github.com/ImperialCollegeLondon/poreFoam-singlePhase]
+**[Porefoam1f](https://github.com/ImperialCollegeLondon/poreFoam-singlePhase)**
 1. **Load Experimental Data:**:
       ```bash
       from data_loader import load_carbonate_data
