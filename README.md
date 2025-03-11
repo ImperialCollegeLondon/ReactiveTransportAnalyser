@@ -1,39 +1,39 @@
 # ReactiveTransportAnalyser
 # Reactive Transport Analyzer for CO₂ Reactions
 
-Overview
+# Overview
 
 This tutorial provides a structured workflow for conducting single-phase flow simulations, aligning flow field images, analyzing voxel distributions, and evaluating mineral transport within a porous medium. It includes step-by-step instructions on input files, expected outputs, and usage of key scripts for data processing.
 
-Procedure
+# Procedure
 
-1. Single-Phase Flow Simulation
+#1. Single-Phase Flow Simulation
 
 The single-phase flow simulator can be found here **[Porefoam1f](https://github.com/ImperialCollegeLondon/poreFoam-singlePhase)**.
 
-Input Files:
+#Input Files:
 
-Segmented Image: The image should be segmented into two phases: pore space and rock.
+-Segmented Image: The image should be segmented into two phases: pore space and rock.
 
-Label 0: Pore
+  -Label 0: Pore
 
-Label 1: Rock
+  -Label 1: Rock
 
-(See screenshot_1)
+**(See screenshot_1)**
 
-MHD File (See screenshot_2)
+-MHD File **(See screenshot_2)**
 
-Required Output Files:
+#Required Output Files:
 
-Velocity Files: Velocities at the cell face (Ufx, Ufy, Ufz) (See screenshot_3)
+Velocity Files: Velocities at the cell face (Ufx, Ufy, Ufz) **(See screenshot_3)**
 
 Used as an input for the image alignment code.
 
-Summary File (See screenshot_3)
+Summary File **(See screenshot_3)**
 
 Contains permeability, connected porosity, and velocity distribution (probability density functions, PDFs).
 
-OpenMelnParaview.foam (See screenshot_3)
+OpenMelnParaview.foam **(See screenshot_3)**
 
 Used for visualizing the velocity field in Paraview.
 
