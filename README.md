@@ -68,7 +68,7 @@ The VoxelNumber_and_FacesToPore script calculates:
   - Label 4: Calcite
 
   - Label 5: Anhydrite
-  - 
+  
 **(See screenshot_5)**
 
 - The number of faces of all other labels that are exposed to the pore label.
