@@ -7,27 +7,27 @@ This tutorial provides a structured workflow for conducting single-phase flow si
 
 # Procedure
 
-#1. Single-Phase Flow Simulation
+# 1. Single-Phase Flow Simulation
 
 The single-phase flow simulator can be found here **[Porefoam1f](https://github.com/ImperialCollegeLondon/poreFoam-singlePhase)**.
 
 #Input Files:
 
--Segmented Image: The image should be segmented into two phases: pore space and rock.
+- Segmented Image: The image should be segmented into two phases: pore space and rock.
 
-  -Label 0: Pore
+  - Label 0: Pore
 
-  -Label 1: Rock
+  - Label 1: Rock
 
 **(See screenshot_1)**
 
--MHD File **(See screenshot_2)**
+- MHD File **(See screenshot_2)**
 
-#Required Output Files:
+# Required Output Files:
 
-Velocity Files: Velocities at the cell face (Ufx, Ufy, Ufz) **(See screenshot_3)**
+- Velocity Files: Velocities at the cell face (Ufx, Ufy, Ufz) **(See screenshot_3)**
 
-Used as an input for the image alignment code.
+  - Used as an input for the image alignment code.
 
 Summary File **(See screenshot_3)**
 
