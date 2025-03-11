@@ -11,7 +11,7 @@ This tutorial provides a structured workflow for conducting single-phase flow si
 
 The single-phase flow simulator can be found here **[Porefoam1f](https://github.com/ImperialCollegeLondon/poreFoam-singlePhase)**.
 
-## Input Files:
+# Input Files:
 
 - Segmented Image: The image should be segmented into two phases: pore space and rock.
 
