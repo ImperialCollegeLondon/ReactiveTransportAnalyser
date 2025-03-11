@@ -45,7 +45,7 @@ This code corrects the misalignment between the flow field image and the segment
 
 # Input Files:
 
-Velocities at the cell face (Ufx, Ufy, Ufz) (See screenshot_3)
+- Velocities at the cell face (Ufx, Ufy, Ufz) (See screenshot_3)
 
 # Output File:
 
@@ -94,6 +94,7 @@ The VoxelNumber_and_FacesToPore script calculates:
 The Mineral Distribution Code calculates the number of voxels for each label at the face of a flow region and those moving away from the face.
 
 The flow regions are defined as fast channels and slow regions.
+![Fast channel defination](https://github.com/user-attachments/assets/679eae56-5d64-47c6-abf9-b7b0c64fe35a)
 
 Distance maps (fastflowdistmap.tif and slowregionsdistmap.tif) are used in combination with the segmented image.
 
