@@ -19,25 +19,25 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
 
   - Label 1: Rock
 
-**(See screenshot_1)**
+**(See Screenshot 1)**
 
-- MHD File **(See screenshot_2)**
+- MHD File **(See Screenshot 2)**
 
 # Required Output Files:
 
-- Velocity Files: Velocities at the cell face (Ufx, Ufy, Ufz) **(See screenshot_3)**
+- Velocity Files: Velocities at the cell face (Ufx, Ufy, Ufz) **(See Screenshot 3)**
 
   - Used as an input for the image alignment code.
 
-- Summary File **(See screenshot_3 & ** screenshot_4)**
+- Summary File **(See Screenshot 3 & ** Screenshot 4)**
 
   - Contains permeability, connected porosity, and velocity distribution (probability density functions, PDFs).
 
-- OpenMelnParaview.foam **(See screenshot_3)**
+- OpenMelnParaview.foam **(See Screenshot 3)**
 
   - Used for visualizing the velocity field in Paraview.
 
-**Note:** The output folder from the single-phase simulation contains many files (See screenshot_3).
+**Note:** The output folder from the single-phase simulation contains many files (See Screenshot 3).
 
 # 2. Image Alignment Code
 
@@ -45,11 +45,11 @@ This code corrects the misalignment between the flow field image and the segment
 
 # Input Files:
 
-- Velocities at the cell face (Ufx, Ufy, Ufz) (See screenshot_3)
+- Velocities at the cell face (Ufx, Ufy, Ufz) (See Screenshot 3)
 
 # Output File:
 
-- Flow Field Image (See screenshot_5)
+- Flow Field Image (See Screenshot 5)
 
 # 3. Voxel Count & Pore Exposure Analysis (VoxelNumber_and_FacesToPore)
 
@@ -69,7 +69,7 @@ The VoxelNumber_and_FacesToPore script calculates:
 
   - Label 5: Anhydrite
   
-**(See screenshot_5)**
+**(See Screenshot 5)**
 
 - The number of faces of all other labels that are exposed to the pore label.
 
@@ -77,11 +77,11 @@ The VoxelNumber_and_FacesToPore script calculates:
 
 # Input Files:
 
-- Two segmented images with labels **(See screenshot_6)**.
+- Two segmented images with labels **(See Screenshot 6)**.
 
 # Output File:
 
-- Excel Spreadsheet containing (See screenshot_7):
+- Excel Spreadsheet containing (See Screenshot 7):
 
 - Number of voxels for each label in both images.
 
@@ -93,27 +93,27 @@ The VoxelNumber_and_FacesToPore script calculates:
 
 The Mineral Distribution Code calculates the number of voxels for each label at the face of a flow region and those moving away from the face.
 
-The flow regions are defined as fast channels and slow regions **(See screenshot_8)**.
+The flow regions are defined as fast channels and slow regions **(See Screenshot 8)**.
 
-**See screenshot_8:**
-![screenshot_8 (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
+**Screenshot 8:**
+![Screenshot 8 (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
 
 
 
 Distance maps (fastflowdistmap.tif and slowregionsdistmap.tif) are used in combination with the segmented image.
 
-The script outputs the voxel count for all labels at the face and away from the face in both fast and slow regions **(See screenshot_8)**.
+The script outputs the voxel count for all labels at the face and away from the face in both fast and slow regions **(See Screenshot 8)**.
 
 
 # Input Files:
 
 - Distance maps (fastflowdistmap.tif, slowregionsdistmap.tif)
 
-- Segmented image with labels **(See screenshot_9)**
+- Segmented image with labels **(See Screenshot 9)**
 
 # Output File:
 
-- Excel Spreadsheet containing **(See screenshot_10)**
+- Excel Spreadsheet containing **(See Screenshot 10)**
 :
 
 - Number of voxels at the face and away from the face for all labels in fast and slow regions.
