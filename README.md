@@ -94,14 +94,14 @@ The VoxelNumber_and_FacesToPore script calculates:
 The Mineral Distribution Code calculates the number of voxels for each label at the face of a flow region and those moving away from the face.
 
 The flow regions are defined as fast channels and slow regions **(See screenshot_7)**.
+![screenshot_7 (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
 
 
 
 Distance maps (fastflowdistmap.tif and slowregionsdistmap.tif) are used in combination with the segmented image.
 
-The script outputs the voxel count for all labels at the face and away from the face in both fast and slow regions **(See screenshot_7)**.
+The script outputs the voxel count for all labels at the face and away from the face in both fast and slow regions **(See screenshot_8)**.
 
-![screenshot_7 (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
 
 # Input Files:
 
