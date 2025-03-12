@@ -29,7 +29,7 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
 
   - Used as an input for the image alignment code.
 
-- Summary File **(See screenshot_3)**
+- Summary File **(See screenshot_3 & ** screenshot_4)**
 
   - Contains permeability, connected porosity, and velocity distribution (probability density functions, PDFs).
 
@@ -49,7 +49,7 @@ This code corrects the misalignment between the flow field image and the segment
 
 # Output File:
 
-- Flow Field Image (See screenshot_4)
+- Flow Field Image (See screenshot_5)
 
 # 3. Voxel Count & Pore Exposure Analysis (VoxelNumber_and_FacesToPore)
 
@@ -77,11 +77,11 @@ The VoxelNumber_and_FacesToPore script calculates:
 
 # Input Files:
 
-- Two segmented images with labels **(See screenshot_5)**.
+- Two segmented images with labels **(See screenshot_6)**.
 
 # Output File:
 
-- Excel Spreadsheet containing (See screenshot_6):
+- Excel Spreadsheet containing (See screenshot_7):
 
 - Number of voxels for each label in both images.
 
@@ -93,8 +93,10 @@ The VoxelNumber_and_FacesToPore script calculates:
 
 The Mineral Distribution Code calculates the number of voxels for each label at the face of a flow region and those moving away from the face.
 
-The flow regions are defined as fast channels and slow regions **(See screenshot_7)**.
-![screenshot_7 (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
+The flow regions are defined as fast channels and slow regions **(See screenshot_8)**.
+
+**See screenshot_8:**
+![screenshot_8 (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
 
 
 
@@ -107,11 +109,11 @@ The script outputs the voxel count for all labels at the face and away from the 
 
 - Distance maps (fastflowdistmap.tif, slowregionsdistmap.tif)
 
-- Segmented image with labels **(See screenshot_8)**
+- Segmented image with labels **(See screenshot_9)**
 
 # Output File:
 
-- Excel Spreadsheet containing **(See screenshot_9)**
+- Excel Spreadsheet containing **(See screenshot_10)**
 :
 
 - Number of voxels at the face and away from the face for all labels in fast and slow regions.
