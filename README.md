@@ -25,8 +25,8 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
 
 **Screenshot 1: Image Segmentation for Single-Phase Flow Simulation (Avizo 3D 2023)**
 
-![screenshot_1a](https://github.com/user-attachments/assets/1f0dffa2-0fa2-447d-98c6-8d1b6ed5f828)
-![screenshot_1b](https://github.com/user-attachments/assets/ad5179df-fab4-453a-9422-b2a7241402fa)
+![screenshot_1a](https://github.com/user-attachments/assets/58b38132-fd44-4356-89fd-a43c23aa82e4)
+![screenshot_1b](https://github.com/user-attachments/assets/ef7dab19-ea63-47a4-ac9d-f367f338d1e1)
 ![screenshot_1c](https://github.com/user-attachments/assets/463cf521-94ba-4770-9e6b-51bd1d96b652)
 ![screenshot_1d](https://github.com/user-attachments/assets/abc5b16c-1e30-4652-b35e-dcad2906f67d)
 ![screenshot_1e](https://github.com/user-attachments/assets/0df49207-2ad8-47b5-982c-335751c414a0)
