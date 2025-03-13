@@ -21,7 +21,7 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
 
   - Label 1: Rock
 
-**Note:** If Avizo is used, the 'Exterior' material is alway Label 0 and is everything that isn't segmented into another material. So everything needs to be segmented except the pore space so that it would be the only thing in the 'Exterior' material and have the  Label 0. 
+**Note:** If Avizo is used, the 'Exterior' material is alway Label 0 and is everything that isn't segmented into another material. So everything needs to be segmented except the pore space so that it would be the only thing in the 'Exterior' material and have the  Label 0. Also, the outer layer has to be segmented as rock so that flow is only simulated through the pore space.  
 
 **(See Screenshot 1)**
 
