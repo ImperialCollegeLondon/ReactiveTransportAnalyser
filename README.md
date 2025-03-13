@@ -89,17 +89,19 @@ The VoxelNumber_and_FacesToPore script calculates:
 
 - The number of voxels for each label in the segmented image:
 
-  - Label 0: Outer layer
+  - Label 1: Outer layer
 
-  - Label 1: Pore
+  - Label 2: Pore
 
-  - Label 2: Microporous phase
+  - Label 3: Microporous phase
 
-  - Label 3: Dolomite
+  - Label 4: Dolomite
 
-  - Label 4: Calcite
+  - Label 5: Calcite
 
-  - Label 5: Anhydrite
+  - Label 6: Anhydrite
+ 
+    **Note: Label 0 is ignored**
   
 **(See Screenshot 6)**
 
