@@ -131,6 +131,9 @@ The VoxelNumber_and_FacesToPore script calculates:
 
 **Screenshot 7: Contents of VoxelNumber_and_FacesToPore Code Output Excel Spreadsheet**
 
+![screenshot_7a](https://github.com/user-attachments/assets/86895a6c-8a77-4be1-a022-85445a76f05f)
+![screenshot_7b](https://github.com/user-attachments/assets/302026a5-b466-4b66-aa50-88b0115f8d04)
+
 
 # 4. Mineral Distribution Analysis
 
