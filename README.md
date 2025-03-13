@@ -27,8 +27,13 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
 
 
 - .MHD File **(See Screenshot 2)**
-- 
+  
 **Screenshot 2: Contents of .MHD file (Notepad)**
+![screenshot_2](https://github.com/user-attachments/assets/93bc9505-7d97-4c73-9a4d-c578f5e0dfe1)
+
+**Screenshot 3: Contents of Simulation Output Folder**
+
+![screenshot_3](https://github.com/user-attachments/assets/7f900e04-f3e2-4a7e-b305-a0c62408cffd)
 
 
 # Required Output Files:
@@ -40,6 +45,8 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
 - Summary File **(See Screenshot 3 & Screenshot 4)**
   
 **Screenshot 4: Contents of Summary File**
+
+![screenshot_4](https://github.com/user-attachments/assets/44069493-c5b5-4b1b-be08-02639f27c0de)
 
 
   - Contains permeability, connected porosity, and velocity distribution (probability density functions, PDFs).
