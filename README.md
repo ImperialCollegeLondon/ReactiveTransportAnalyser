@@ -36,6 +36,7 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
   
 **Screenshot 2: Contents of .MHD file (Notepad)**
 ![screenshot_2](https://github.com/user-attachments/assets/93bc9505-7d97-4c73-9a4d-c578f5e0dfe1)
+![screenshot_1f](https://github.com/user-attachments/assets/1a39f5fd-9f03-4aa7-92f8-d7aca7e57176)
 
 **Screenshot 3: Contents of Simulation Output Folder**
 
