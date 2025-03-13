@@ -123,7 +123,6 @@ The VoxelNumber_and_FacesToPore script calculates:
 **Screenshot 6: Segmented Image (Label 0 to 5)**
 
 ![screenshot_6a](https://github.com/user-attachments/assets/d455bebb-2b4f-40cf-8d63-dbcc5eb4c72b)
-![screenshot_6b](https://github.com/user-attachments/assets/43811a44-a4ca-4127-9360-081045d27f7d)
 
 
 # Output File:
