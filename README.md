@@ -149,17 +149,16 @@ The flow regions are defined as fast channels and slow regions **(See Screenshot
 ![screenshot_8b](https://github.com/user-attachments/assets/af820397-9172-427d-9bc1-8373647bb304)
 
 
-
-Distance maps (fastflowdistmap.tif and slowregionsdistmap.tif) are used in combination with the segmented image.
+Distance maps of the fast flow and slow regions (fastflowdistmap.tif and slowregionsdistmap.tif) are used in combination with the segmented image.
 
 The script outputs the voxel count for all labels at the face and away from the face in both fast and slow regions **(See Screenshot 8)**.
 
 
 # Input Files:
 
-- Distance maps (fastflowdistmap.tif, slowregionsdistmap.tif)
+- Distance maps (fastflowdistmap.tif, slowregionsdistmap.tif)..........
 
-- Segmented image (with labels 0 to 5) **(See Screenshot 6)**
+- Segmented image (with labels 1 to 6) **(See Screenshot 6)**
 
 # Output File:
 
@@ -169,6 +168,9 @@ The script outputs the voxel count for all labels at the face and away from the 
 
 **Screenshot 9: Contents of Mineral Distribution Code Output Excel Spreadsheet**
 
+![screenshot_9a](https://github.com/user-attachments/assets/d69fdafc-508e-4db2-9257-fb5536ea4f59)
+![screenshot_9b](https://github.com/user-attachments/assets/1f67eac9-f0bb-4efe-b268-830faf198930)
+![screenshot_9c](https://github.com/user-attachments/assets/23f602ad-e645-4237-afde-1e2a1b33548d)
 
 
 
