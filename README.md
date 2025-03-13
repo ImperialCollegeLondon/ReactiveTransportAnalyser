@@ -36,7 +36,7 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
 
   - Used as an input for the image alignment code.
 
-- Summary File **(See Screenshot 3 & ** Screenshot 4)**
+- Summary File **(See Screenshot 3 & Screenshot 4)**
   
 **Screenshot 4: Contents of Summary File**
 
