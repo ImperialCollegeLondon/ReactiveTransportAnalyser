@@ -5,6 +5,8 @@
 
 This tutorial provides a structured workflow for conducting single-phase flow simulations, aligning flow field images, analyzing voxel distributions, and evaluating mineral transport within a porous medium. It includes step-by-step instructions on input files, expected outputs, and usage of key scripts for data processing.
 
+**Note:** The example shown is Sample A at 33 min (488 PV).
+
 # Procedure
 
 # 1. Single-Phase Flow Simulation
