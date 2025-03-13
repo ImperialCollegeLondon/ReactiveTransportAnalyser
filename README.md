@@ -80,6 +80,7 @@ This code corrects the misalignment between the flow field image and the segment
 
 **Screenshot 5: Output Folder from Image Alignment Code**
 
+![screenshot_5](https://github.com/user-attachments/assets/3022c1fa-72fa-48c5-a739-092716b8bf2a)
 
 
 # 3. Voxel Count & Pore Exposure Analysis (VoxelNumber_and_FacesToPore)
@@ -111,6 +112,9 @@ The VoxelNumber_and_FacesToPore script calculates:
 - Two segmented images with labels **(See Screenshot 6)**.
 
 **Screenshot 6: Segmented Image (Label 0 to 5)**
+
+![screenshot_6a](https://github.com/user-attachments/assets/d455bebb-2b4f-40cf-8d63-dbcc5eb4c72b)
+![screenshot_6b](https://github.com/user-attachments/assets/43811a44-a4ca-4127-9360-081045d27f7d)
 
 
 # Output File:
