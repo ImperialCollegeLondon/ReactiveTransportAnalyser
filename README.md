@@ -142,7 +142,9 @@ The Mineral Distribution Code calculates the number of voxels for each label at 
 The flow regions are defined as fast channels and slow regions **(See Screenshot 8)**.
 
 **Screenshot 8: Defining Fast Channels and Slow Regions**
-![Screenshot 8 (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
+
+![Screenshot 8a (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
+![screenshot_8b](https://github.com/user-attachments/assets/af820397-9172-427d-9bc1-8373647bb304)
 
 
 
