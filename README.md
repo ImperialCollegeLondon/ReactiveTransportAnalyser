@@ -55,10 +55,6 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
 
   - Used for visualizing the velocity field in Paraview.
 
-**Note:** The output folder from the single-phase simulation contains many files (See Screenshot 3).
-
-**Screenshot 3: Output Folder from Single-Phase Flow Simulation**
-
 
 # 2. Image Alignment Code
 
@@ -140,7 +136,7 @@ The script outputs the voxel count for all labels at the face and away from the 
 
 - Distance maps (fastflowdistmap.tif, slowregionsdistmap.tif)
 
-- Segmented image (with labels 0 TO 5) **(See Screenshot 6)**
+- Segmented image (with labels 0 to 5) **(See Screenshot 6)**
 
 # Output File:
 
