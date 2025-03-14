@@ -299,8 +299,38 @@ Using the ‘Arithmetic’ module,  multiply ‘2-3-mpd.am’ and ‘33fastflow.
 
 **Note:** Export and save all output files individually as . TIFF files. They will be used in Paraview for visualization.
 
-
 ![fdm](https://github.com/user-attachments/assets/90ec2954-1c1b-4816-8ae4-19cb24bd9353)
+
+
+
+# **Procedure: Proximity Function Profiles**
+
+
+
+![proximity_1a](https://github.com/user-attachments/assets/3cc0e95f-69d2-4307-a887-1689352cdedd)
+
+![proximity_1b](https://github.com/user-attachments/assets/a8fa86a9-966f-4c1c-9f19-8814c525beda)
+
+
+![proximity_1c](https://github.com/user-attachments/assets/527dd576-8b8e-4d38-bb1c-7845d4740a64)
+
+
+![proximity_1d](https://github.com/user-attachments/assets/893a6970-cf91-41b3-af27-107e48e35f0c)
+
+
+![proximity_1e](https://github.com/user-attachments/assets/07be59c7-c975-44b6-a46b-3cef8fd3d2cf)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
