@@ -311,6 +311,7 @@ The proximity function quantifies mineral exposure relative to fast transport ch
 \label{eq:proximity_function} 
 P(d) = \frac{N_{\text{voxels}}}{A_{\text{exposed}}} \quad (m^{-2})
 \end{equation}
+![Screenshot 2025-03-14 at 18 38 33](https://github.com/user-attachments/assets/2858d719-218a-4331-90cd-bd279eaaab1f)
 
 Calculate proximity function. 
 
