@@ -195,7 +195,7 @@ The script outputs the voxel count for all labels at the face and away from the 
 ![ff3](https://github.com/user-attachments/assets/32d39276-8748-40ab-bf7e-bb2e0156b6b0)
 
 
-![ff4](https://github.com/user-attachments/assets/c1bb28fd-bc40-4f45-9350-37439411a82e)
+![ff4](https://github.com/user-attachments/assets/83493d7b-df65-4878-a72c-6a1ef424bc68)
 
 
 ![ff5](https://github.com/user-attachments/assets/1ad2ba35-e3b0-48c0-bdb3-36a574ea54ef)
