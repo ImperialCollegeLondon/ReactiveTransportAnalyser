@@ -222,16 +222,20 @@ The script outputs the voxel count for all labels at the face and away from the 
 ![ff12](https://github.com/user-attachments/assets/a7addad0-49d5-465d-b457-909da9fbaea2)
 
 
+**Screenshot: Procedure: Distance Mapss**
+
 ![ff13](https://github.com/user-attachments/assets/ed7c2632-acd0-4f4c-98ce-a52d3d3367c8)
 
+**Outputs: Fast Channel ans Slow Regions Image, Distance Maps**
 
 ![ff14](https://github.com/user-attachments/assets/2945df2e-2a3b-4cf4-ad0e-0b2aefbb1d09)
 
 
 
 
+**Screenshot: Procedure: Fast Channel Dissolved Minerals**
 
-
+![fdm](https://github.com/user-attachments/assets/90ec2954-1c1b-4816-8ae4-19cb24bd9353)
 
 
 
