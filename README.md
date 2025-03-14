@@ -233,7 +233,7 @@ The script outputs the voxel count for all labels at the face and away from the 
 
 
 
-## **Screenshot: Procedure: Fast Channel Dissolved Minerals**
+# **Screenshot: Procedure: Fast Channel Dissolved Minerals**
 
 ‘2-3-mpd.am’, ‘2-3-dol.am’, ‘2-3-cal.am’ & ‘2-3-anhy.am’ are images that contain the minerals dissolved between scan 2 (33 min) and scan 3 (66 min).  That is scan 2 minus scan 3.
 
@@ -244,7 +244,7 @@ These files are the input files required to obtain the fast channel dissolved mi
 Using the ‘Arithmetic’ module,  multiply ‘2-3-mpd.am’ and ‘33fastflow.channel.am’  using the expression;
 - A*B
 
-# Input files
+## Input files
 - Dissolved mineral image (i.e., ‘2-3-mpd.am’, ‘2-3-dol.am’, ‘2-3-cal.am’ & ‘2-3-anhy.am’)
 - Fast channel image ‘(33fastflow.channel.am’)
 
@@ -252,7 +252,7 @@ Using the ‘Arithmetic’ module,  multiply ‘2-3-mpd.am’ and ‘33fastflow.
 - Fast channel dissolved minerals images (i.e., ‘2-3-mpd_fast_dissolved’, ‘2-3-dol_fast_dissolved’, ‘2-3-cal_fast_dissolved’ & ‘2-3-anhy_fast_dissolved’).
 
 
-
+**Note:** Export and save all output files individually as . TIFF files. They will be used in Paraview for visualization.
 
 
 ![fdm](https://github.com/user-attachments/assets/90ec2954-1c1b-4816-8ae4-19cb24bd9353)
