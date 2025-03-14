@@ -283,7 +283,14 @@ Plot proxmity function profiles.
 ![proximity_1e](https://github.com/user-attachments/assets/07be59c7-c975-44b6-a46b-3cef8fd3d2cf)
 
 
----
 
-This guide provides a **clear, structured, and interactive** approach to analyzing reactive transport processes in CO₂ storage environments. If you encounter any issues, refer to the screenshots or reach out for support!
+
+## References
+...
+
+## Contact
+For any inquiries, please contact **Sajjad Foroughi** at [s.foroughi@imperial.ac.uk] or **Olatunbosun Adedipe** at [o.adedipe23@imperial.ac.uk]
+
+
+
 
