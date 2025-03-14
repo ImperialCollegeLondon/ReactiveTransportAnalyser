@@ -73,11 +73,30 @@ This script corrects misalignment between the flow field image and the segmented
 - Flow Field Image *(See Screenshot Below)*
   ![Output Folder](https://github.com/user-attachments/assets/3022c1fa-72fa-48c5-a739-092716b8bf2a)
 
-## **Voxel Count & Pore Exposure Analysis**
+## **Voxel Count & Pore Exposure Analysis (VoxelNumber_and_FacesToPore_Code)**
 This script calculates voxel distributions and the number of faces exposed to the pore label.
 
 ### **Input Files**
 - Two segmented images at different time intervals
+
+
+**Segmented Image (Label 1 to 5)**
+
+ - Label 1: Outer layer
+
+  - Label 2: Pore
+
+  - Label 3: Microporous phase
+
+  - Label 4: Dolomite
+
+  - Label 5: Calcite
+
+  - Label 6: Anhydrite
+ 
+    **Note: Label 0 is ignored**
+
+![screenshot_6a](https://github.com/user-attachments/assets/d455bebb-2b4f-40cf-8d63-dbcc5eb4c72b)
 
 ### **Output Files**
 - Excel file with voxel count differences and pore exposure calculations *(See Screenshot Below)*
