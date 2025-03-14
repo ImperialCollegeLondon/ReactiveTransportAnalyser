@@ -125,23 +125,129 @@ This section guides defining high and low velocity zones based on flow field ana
 5. Subtract rock areas to isolate the **fast flow channel**.
 6. Subtract fast channels from the full flow field to obtain **slow regions**.
 
-**Screenshots:**
-- ![Fast Flow Segmentation](https://github.com/user-attachments/assets/759375c3-d3f3-437d-a07b-a3a97b80aebb)
-- ![Slow Regions Segmentation](https://github.com/user-attachments/assets/a7addad0-49d5-465d-b457-909da9fbaea2)
+**Screenshots: Defining Fast Channels and Slow Regions**
+
+Open in Avizo:
+- Grayscale image
+- Flow field image
+
+Make sure the properties highlighted in red are identical for both images. This is required to ensure the images are aligned perfectly.
+
+![ff1](https://github.com/user-attachments/assets/6ba357a0-441e-4626-adfb-874f96625856)
+
+
+Atach a histogram module to the flow field image. Generate a histogram from with :
+- Range = 0 to 1E-6
+- 128 bins
+
+Save histogram as .csv file. 
+
+![ff2](https://github.com/user-attachments/assets/ca6e56fe-8b10-468c-8537-f821d92d839f)
+
+
+Copy the Darcy velocities (first column)
+
+![ff3](https://github.com/user-attachments/assets/32d39276-8748-40ab-bf7e-bb2e0156b6b0)
+
+
+Plot PDF.
+
+![ff4](https://github.com/user-attachments/assets/83493d7b-df65-4878-a72c-6a1ef424bc68)
+
+
+
+Calculate CDF and CDF (%). Plot CDF (%).
+
+![ff5](https://github.com/user-attachments/assets/1ad2ba35-e3b0-48c0-bdb3-36a574ea54ef)
+
+
+Paste the Darcy velocities next to PDF. CDF and CDF (%). Then go to 75% CDF and obtain the following:
+- Darcy velocity for thresholding fast channels (red). (Darcy velocity 7.32E-07) 
+- The corresponding x-axis (blue) and y-axis (yellow) values used in identifying fast channel velocities on the velocity distribution (PDF) plot.
+  
+![ff6](https://github.com/user-attachments/assets/7c53f310-5bf0-4cb1-ac6f-ffc5634ba848)
+
+![ff7](https://github.com/user-attachments/assets/1869f0a6-8cf0-4efb-b868-fea51beaa0ef)
+
+
+In Avizo, threshold, segment snd save the whole flow field to a new ‘Label field’ :
+- Threshold from 1E-22 to end of data. 
+
+![ff8](https://github.com/user-attachments/assets/b35ec764-36c0-4dd2-8517-b5f6a048f354)
+
+
+Threshold, segment snd save the fast flow seed to a new ‘Label field’ :
+- Threshold from 7.32E-07 to end of data. 
+
+![ff9](https://github.com/user-attachments/assets/9a8e8134-8a51-4ac6-93f5-04168251b8ca)
+
+
+View the grayscale image with the fast flow seed (blue). Attach the ‘Dilation’ module to the fast flow seed and dilate by the minimum number of pixels required to reach the nearest pore wall. It was 3 pixels (3px ) in this case.  The dilated region is shown in red.
+
+![ff10](https://github.com/user-attachments/assets/759375c3-d3f3-437d-a07b-a3a97b80aebb)
+
+
+Where the dilated region overlaps rock, the rock image is subtracted. Using expression:
+- A-B
+
+
+The result is a fast flow channel where blue depicts the faster velocities at the middle of the fast channel and the green depicts slower velocities  closer to the pore walls.
+
+
+![ff11](https://github.com/user-attachments/assets/2d41e9df-9c90-418c-ae18-762a7aabbd27)
+
+
+
+To get the slow regions, we subtract the fast channels from the whole flow field using expression:
+- A-B
+
+
+![ff12](https://github.com/user-attachments/assets/a7addad0-49d5-465d-b457-909da9fbaea2)
+
 
 ### **Obtaining Distance Maps**
 - Use **Chamfer Distance Map** module in Avizo for both fast channels and slow regions.
 - Export results as .TIFF files.
+  
+![ff13](https://github.com/user-attachments/assets/ed7c2632-acd0-4f4c-98ce-a52d3d3367c8)
+
+
+# **Outputs: Fast Channel ans Slow Region Images, Distance Maps**
+
+We now have images of fast channels and slow regions, along with their corresponding distance maps. Each of these files should be exported and saved as individual .TIFF files for use in later calculations and visualizations.
+
+![ff14](https://github.com/user-attachments/assets/2945df2e-2a3b-4cf4-ad0e-0b2aefbb1d09)
+
 
 ## **Fast Channel Dissolved Minerals**
-Mineral dissolution in fast channels is determined by multiplying mineral change images with the fast flow channel.
+Mineral dissolution in fast channels is determined by multiplying mineral change images with the fast flow channel. The following images represent minerals dissolved between scan 2 (33 min) and scan 3 (66 min), calculated as scan 2 minus scan 3:
+- 2-3-mpd.am
+- 2-3-dol.am
+- 2-3-cal.am
+- 2-3-anhy.am
+
+- Additionally, 33fastflow.channel.am is the fast channel image at scan 3 (66 min).
+
+**Note:** These files serve as input to determine the fast channel dissolved minerals.
+
+**Processing Steps**
+Using the Arithmetic module, multiply 2-3-mpd.am by 33fastflow.channel.am using the expression:
+
+A * B
+Repeat this operation for each dissolved mineral image.
 
 ### **Input Files**
 - Dissolved mineral image (‘2-3-mpd.am’, ‘2-3-dol.am’, etc.)
 - Fast channel image (‘33fastflow.channel.am’)
 
 ### **Output Files**
-- TIFF images showing dissolved minerals in fast channels *(See Screenshot Below)*
+   - Fast channel dissolved mineral images:
+      - 2-3-mpd_fast_dissolved.am
+      - 2-3-dol_fast_dissolved.am
+      - 2-3-cal_fast_dissolved.am
+      - 2-3-anhy_fast_dissolved.am
+
+**Note:** Export and save all output files individually as .TIFF files for visualization in ParaView.
   ![Dissolved Minerals](https://github.com/user-attachments/assets/90ec2954-1c1b-4816-8ae4-19cb24bd9353)
 
 ## **Proximity Function Profiles**
