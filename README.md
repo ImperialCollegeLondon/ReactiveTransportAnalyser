@@ -184,7 +184,48 @@ The script outputs the voxel count for all labels at the face and away from the 
 ![Screenshot 8a (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
 ![screenshot_8b](https://github.com/user-attachments/assets/af820397-9172-427d-9bc1-8373647bb304)
 
+**Screenshots: Procedure: Defining Fast Channels and Slow Regions**
 
+![ff1](https://github.com/user-attachments/assets/6ba357a0-441e-4626-adfb-874f96625856)
+
+
+![ff2](https://github.com/user-attachments/assets/ca6e56fe-8b10-468c-8537-f821d92d839f)
+
+
+![ff3](https://github.com/user-attachments/assets/32d39276-8748-40ab-bf7e-bb2e0156b6b0)
+
+
+![ff4](https://github.com/user-attachments/assets/c1bb28fd-bc40-4f45-9350-37439411a82e)
+
+
+![ff5](https://github.com/user-attachments/assets/1ad2ba35-e3b0-48c0-bdb3-36a574ea54ef)
+
+
+![ff6](https://github.com/user-attachments/assets/7c53f310-5bf0-4cb1-ac6f-ffc5634ba848)
+
+
+![ff7](https://github.com/user-attachments/assets/1869f0a6-8cf0-4efb-b868-fea51beaa0ef)
+
+
+![ff8](https://github.com/user-attachments/assets/b35ec764-36c0-4dd2-8517-b5f6a048f354)
+
+
+![ff9](https://github.com/user-attachments/assets/9a8e8134-8a51-4ac6-93f5-04168251b8ca)
+
+
+![ff10](https://github.com/user-attachments/assets/759375c3-d3f3-437d-a07b-a3a97b80aebb)
+
+
+![ff11](https://github.com/user-attachments/assets/2d41e9df-9c90-418c-ae18-762a7aabbd27)
+
+
+![ff12](https://github.com/user-attachments/assets/a7addad0-49d5-465d-b457-909da9fbaea2)
+
+
+![ff13](https://github.com/user-attachments/assets/ed7c2632-acd0-4f4c-98ce-a52d3d3367c8)
+
+
+![ff14](https://github.com/user-attachments/assets/8a5990eb-c16c-4f9c-8704-942e878f74c4)
 
 
 
