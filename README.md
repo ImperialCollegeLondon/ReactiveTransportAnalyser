@@ -305,6 +305,15 @@ Using the ‘Arithmetic’ module,  multiply ‘2-3-mpd.am’ and ‘33fastflow.
 
 # **Procedure: Proximity Function Profiles**
 
+The proximity function quantifies mineral exposure relative to fast transport channels, defined as the voxel count per unit exposed surface area at a given distance. This function helps assess exposure variations and their impact on transport dynamics.
+
+\begin{equation}
+\label{eq:proximity_function} 
+P(d) = \frac{N_{\text{voxels}}}{A_{\text{exposed}}} \quad (m^{-2})
+\end{equation}
+
+Calculate proximity function. 
+
 
 
 ![proximity_1a](https://github.com/user-attachments/assets/3cc0e95f-69d2-4307-a887-1689352cdedd)
@@ -317,6 +326,7 @@ Using the ‘Arithmetic’ module,  multiply ‘2-3-mpd.am’ and ‘33fastflow.
 
 ![proximity_1d](https://github.com/user-attachments/assets/893a6970-cf91-41b3-af27-107e48e35f0c)
 
+Plot proxmity function profiles.
 
 ![proximity_1e](https://github.com/user-attachments/assets/07be59c7-c975-44b6-a46b-3cef8fd3d2cf)
 
