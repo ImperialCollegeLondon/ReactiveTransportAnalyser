@@ -147,11 +147,6 @@ The Mineral Distribution Code calculates the number of voxels for each label at 
 
 The flow regions are defined as fast channels and slow regions **(See Screenshot 8)**.
 
-**Screenshot 8: Defining Fast Channels and Slow Regions**
-
-![Screenshot 8a (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
-![screenshot_8b](https://github.com/user-attachments/assets/af820397-9172-427d-9bc1-8373647bb304)
-
 
 Distance maps of the fast flow and slow regions (fastflowdistmap.tif and slowregionsdistmap.tif) are used in combination with the segmented image.
 
@@ -175,6 +170,27 @@ The script outputs the voxel count for all labels at the face and away from the 
 ![screenshot_9a](https://github.com/user-attachments/assets/d69fdafc-508e-4db2-9257-fb5536ea4f59)
 ![screenshot_9b](https://github.com/user-attachments/assets/1f67eac9-f0bb-4efe-b268-830faf198930)
 ![screenshot_9c](https://github.com/user-attachments/assets/23f602ad-e645-4237-afde-1e2a1b33548d)
+
+
+
+## Step-by-Step Guide to Defining Fast Channels and Slow Regions, Obtaining Distance Maps and Fast Channel Dissolved Minerals 
+
+
+
+
+
+**Screenshots: Overview: Defining Fast Channels and Slow Regions**
+
+![Screenshot 8a (fast channel defination)](https://github.com/user-attachments/assets/fdda27e1-fe51-4406-bc23-ab4fbb2e7406)
+![screenshot_8b](https://github.com/user-attachments/assets/af820397-9172-427d-9bc1-8373647bb304)
+
+
+
+
+
+
+
+
 
 
 
