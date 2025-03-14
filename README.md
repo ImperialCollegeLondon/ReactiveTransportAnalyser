@@ -235,14 +235,14 @@ The script outputs the voxel count for all labels at the face and away from the 
 
 ## **Screenshot: Procedure: Fast Channel Dissolved Minerals**
 
-‘2-3-mpd.am’, ‘2-3-dol.am’, ‘2-3-cal.am’ & ‘2-3-anhy.am’ are images that contain the minerals dissolved between san 2 (33 min) and scan 3 (66 min).  That is scan 2 minus scan 3.
+‘2-3-mpd.am’, ‘2-3-dol.am’, ‘2-3-cal.am’ & ‘2-3-anhy.am’ are images that contain the minerals dissolved between scan 2 (33 min) and scan 3 (66 min).  That is scan 2 minus scan 3.
 
 ‘33fastflow.channel.am’ is the fast channel image at scan 3 (66 min). 
 
 These files are the input files required to obtain the fast channel dissolved minerals.
 
 Using the ‘Arithmetic’ module,  multiply ‘2-3-mpd.am’ and ‘33fastflow.channel.am’  using the expression;
-- [ ] A*B
+- A*B
 
 # Input files
 - Dissolved mineral image (i.e., ‘2-3-mpd.am’, ‘2-3-dol.am’, ‘2-3-cal.am’ & ‘2-3-anhy.am’)
