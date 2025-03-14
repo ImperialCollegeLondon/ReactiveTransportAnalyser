@@ -231,9 +231,10 @@ Mineral dissolution in fast channels is determined by multiplying mineral change
 **Note:** These files serve as input to determine the fast channel dissolved minerals.
 
 **Processing Steps**
-Using the Arithmetic module, multiply 2-3-mpd.am by 33fastflow.channel.am using the expression:
 
-A * B
+Using the Arithmetic module, multiply 2-3-mpd.am by 33fastflow.channel.am using the expression:
+- A * B
+
 Repeat this operation for each dissolved mineral image.
 
 ### **Input Files**
@@ -253,6 +254,8 @@ Repeat this operation for each dissolved mineral image.
 ## **Proximity Function Profiles**
 The **proximity function** quantifies mineral exposure relative to fast channels, providing insights into exposure-dependent dissolution.
 
+![Proximity Function](https://github.com/user-attachments/assets/2858d719-218a-4331-90cd-bd279eaaab1f)
+
 ### **Input Files**
 - Mineral distribution voxel count (from Proximity_VoxelNumber_Code)
 - Exposed surface area (from VoxelNumber_and_FacesToPore_Code)
@@ -260,7 +263,25 @@ The **proximity function** quantifies mineral exposure relative to fast channels
 ### **Output File**
 - Excel spreadsheet containing **proximity function (voxel/m²)**
 
-![Proximity Function](https://github.com/user-attachments/assets/2858d719-218a-4331-90cd-bd279eaaab1f)
+Calculate proximity function. 
+
+![proximity_1a](https://github.com/user-attachments/assets/3cc0e95f-69d2-4307-a887-1689352cdedd)
+
+![proximity_1b](https://github.com/user-attachments/assets/a8fa86a9-966f-4c1c-9f19-8814c525beda)
+
+
+Calculate difference in proximity function. 
+
+![proximity_1c](https://github.com/user-attachments/assets/527dd576-8b8e-4d38-bb1c-7845d4740a64)
+
+
+![proximity_1d](https://github.com/user-attachments/assets/893a6970-cf91-41b3-af27-107e48e35f0c)
+
+
+Plot proxmity function profiles.
+
+![proximity_1e](https://github.com/user-attachments/assets/07be59c7-c975-44b6-a46b-3cef8fd3d2cf)
+
 
 ---
 
