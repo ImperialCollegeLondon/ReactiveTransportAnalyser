@@ -100,7 +100,8 @@ This script calculates voxel distributions and the number of faces exposed to th
 
 ### **Output Files**
 - Excel file with voxel count differences and pore exposure calculations *(See Screenshot Below)*
-  ![Excel Output](https://github.com/user-attachments/assets/86895a6c-8a77-4be1-a022-85445a76f05f)
+![voxel count differences and pore exposure calculations ](https://github.com/user-attachments/assets/8c7bc3aa-792a-4eb0-b1fa-151ff2700048)
+
 
 ## **Mineral Distribution Analysis**
 This code analyzes voxel distribution around fast and slow flow regions.
