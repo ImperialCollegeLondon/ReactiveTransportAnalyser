@@ -155,7 +155,7 @@ The script outputs the voxel count for all labels at the face and away from the 
 
 # Input Files:
 
-- Distance maps (fastflowdistmap.tif, slowregionsdistmap.tif)..........
+- Distance maps (fastflowdistmap.tif, slowregionsdistmap.tif).
 
 - Segmented image (with labels 1 to 6) **(See Screenshot 6)**
 
