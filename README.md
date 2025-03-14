@@ -104,7 +104,7 @@ This script (**[VoxelNumber_and_FacesToPore_Code](https://github.com/ImperialCol
 
 
 ## **Mineral Distribution Analysis**
-This code (**[Proximity_VoxelNumber_Code](https://github.com/ImperialCollegeLondon/poreFoam-singlePhase)**) analyzes voxel distribution around fast and slow flow regions.
+This code (**[Proximity_VoxelNumber_Code](Proximity_VoxelNumber_Code.py)**) analyzes voxel distribution around fast and slow flow regions.
 
 ### **Input Files**
 - Distance maps (fastflowdistmap.tif, slowregionsdistmap.tif)
