@@ -74,7 +74,7 @@ This script (**[Flowfield_Image_Alignment_Code](Flowfield_Image_Alignment_Code.p
   ![Output Folder](https://github.com/user-attachments/assets/3022c1fa-72fa-48c5-a739-092716b8bf2a)
 
 ## **Voxel Count & Pore Exposure Analysis (VoxelNumber_and_FacesToPore_Code)**
-This script (**[VoxelNumber_and_FacesToPore_Code](https://github.com/ImperialCollegeLondon/poreFoam-singlePhase)**) calculates voxel distributions and the number of faces exposed to the pore label.
+This script (**[VoxelNumber_and_FacesToPore_Code](VoxelNumber_and _FacesToPore_Code.py)**) calculates voxel distributions and the number of faces exposed to the pore label.
 
 ### **Input Files**
 - Two segmented images at different time intervals
@@ -103,7 +103,7 @@ This script (**[VoxelNumber_and_FacesToPore_Code](https://github.com/ImperialCol
 ![voxel count differences and pore exposure calculations ](https://github.com/user-attachments/assets/8c7bc3aa-792a-4eb0-b1fa-151ff2700048)
 
 
-## **Mineral Distribution Analysis**
+## **Mineral Distribution Analysis (Proximity_VoxelNumber_Code)**
 This code (**[Proximity_VoxelNumber_Code](Proximity_VoxelNumber_Code.py)**) analyzes voxel distribution around fast and slow flow regions.
 
 ### **Input Files**
