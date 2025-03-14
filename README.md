@@ -185,7 +185,6 @@ The script outputs the voxel count for all labels at the face and away from the 
 
 **Screenshots: Procedure: Defining Fast Channels and Slow Regions**
 
-![ff1](https://github.com/user-attachments/assets/6ba357a0-441e-4626-adfb-874f96625856)
 
 Open in Avizo:
 - Grayscale image
@@ -193,7 +192,8 @@ Open in Avizo:
 
 Make sure the properties highlighted in red are identical for both images. This is required to ensure the images are aligned perfectly.
 
-![ff2](https://github.com/user-attachments/assets/ca6e56fe-8b10-468c-8537-f821d92d839f)
+![ff1](https://github.com/user-attachments/assets/6ba357a0-441e-4626-adfb-874f96625856)
+
 
 Atach a histogram module to the flow field image. Generate a histogram from with :
 - Range = 0 to 1E-6
@@ -201,7 +201,7 @@ Atach a histogram module to the flow field image. Generate a histogram from with
 
 Save histogram as .csv file. 
 
-
+![ff2](https://github.com/user-attachments/assets/ca6e56fe-8b10-468c-8537-f821d92d839f)
 ![ff3](https://github.com/user-attachments/assets/32d39276-8748-40ab-bf7e-bb2e0156b6b0)
 
 Copy the Darcy velocities (first column)
