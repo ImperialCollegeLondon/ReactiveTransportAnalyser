@@ -33,8 +33,17 @@ The single-phase flow simulator is available at **[Porefoam1f](https://github.co
   - **Label 1:** Rock (including outer layer to prevent external flow)
   
 **Screenshots:**
-- ![Segmenting Pore](https://github.com/user-attachments/assets/58b38132-fd44-4356-89fd-a43c23aa82e4)
-- ![Correct Labeling](https://github.com/user-attachments/assets/463cf521-94ba-4770-9e6b-51bd1d96b652)
+**Segmenting Pore**
+![Segmenting Pore](https://github.com/user-attachments/assets/58b38132-fd44-4356-89fd-a43c23aa82e4)
+
+**Segmenting Rock (rock + outer layer) - (Incorrect Labeling)**
+![Segmenting Rock](https://github.com/user-attachments/assets/ef7dab19-ea63-47a4-ac9d-f367f338d1e1)
+![Material stats](https://github.com/user-attachments/assets/abc5b16c-1e30-4652-b35e-dcad2906f67d)
+
+**Correct Labeling**
+![screenshot_1c](https://github.com/user-attachments/assets/463cf521-94ba-4770-9e6b-51bd1d96b652)
+![Material stats](https://github.com/user-attachments/assets/0df49207-2ad8-47b5-982c-335751c414a0)
+
 
 - **.MHD File Format** *(See Screenshot Below)*
   ![MHD File](https://github.com/user-attachments/assets/93bc9505-7d97-4c73-9a4d-c578f5e0dfe1)
@@ -43,6 +52,11 @@ The single-phase flow simulator is available at **[Porefoam1f](https://github.co
 - **Velocity Files**: Velocities at the cell face (Ufx, Ufy, Ufz)
 - **Summary File**: Contains permeability, connected porosity, velocity distribution (PDFs)
 - **OpenMelnParaview.foam**: Used in Paraview for velocity visualization
+
+**Contents of Simulation Output Folder**
+
+![screenshot_3](https://github.com/user-attachments/assets/7f900e04-f3e2-4a7e-b305-a0c62408cffd)
+
 
 ## **Image Alignment Code**
 This script corrects misalignment between the flow field image and the segmented image from the single-phase simulation.
