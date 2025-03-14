@@ -310,6 +310,16 @@ The proximity function quantifies mineral exposure relative to fast transport ch
 ![Screenshot 2025-03-14 at 18 38 33](https://github.com/user-attachments/assets/2858d719-218a-4331-90cd-bd279eaaab1f)
 
 
+## Input Files:
+
+- Mineral distribution ( Number of voxels at the face and away from the face of the fast channel) (from Proximity_VoxelNumber_Code).
+- Exposed surface area (m^2)(from VoxelNumber_abd_FacesToPore_Code).
+
+## Output File:
+
+- Proximity function (voxel/m^2)
+
+
 Calculate proximity function. 
 
 ![proximity_1a](https://github.com/user-attachments/assets/3cc0e95f-69d2-4307-a887-1689352cdedd)
