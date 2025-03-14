@@ -55,10 +55,15 @@ The single-phase flow simulator is available at **[Porefoam1f](https://github.co
 
 **Contents of Simulation Output Folder**
 
-![screenshot_3](https://github.com/user-attachments/assets/7f900e04-f3e2-4a7e-b305-a0c62408cffd)
+![Contents of Simulation Output Folder
+](https://github.com/user-attachments/assets/7f900e04-f3e2-4a7e-b305-a0c62408cffd)
+
+**Contents of Summary File**
+
+![Contents of Summary File](https://github.com/user-attachments/assets/44069493-c5b5-4b1b-be08-02639f27c0de)
 
 
-## **Image Alignment Code**
+## **Image Alignment Code (Flowfield_Image_Alignment_Code)**
 This script corrects misalignment between the flow field image and the segmented image from the single-phase simulation.
 
 ### **Input Files**
