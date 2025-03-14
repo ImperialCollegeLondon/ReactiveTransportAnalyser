@@ -223,7 +223,7 @@ Calculate CDF and CDF (%). Plot CDF (%).
 Paste the Darcy velocities next to PDF. CDF and CDF (%). Then go to 75% CDF and obtain the following:
 - Darcy velocity for thresholding fast channels (red). (Darcy velocity 7.32E-07) 
 - The corresponding x-axis (blue) and y-axis (yellow) values used in identifying fast channel velocities on the velocity distribution (PDF) plot.
-- 
+  
 ![ff6](https://github.com/user-attachments/assets/7c53f310-5bf0-4cb1-ac6f-ffc5634ba848)
 
 ![ff7](https://github.com/user-attachments/assets/1869f0a6-8cf0-4efb-b868-fea51beaa0ef)
