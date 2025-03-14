@@ -278,7 +278,7 @@ Now we have the fast channel and slow regions image along with the corresponding
 ![ff14](https://github.com/user-attachments/assets/2945df2e-2a3b-4cf4-ad0e-0b2aefbb1d09)
 
 
-# **Screenshot: Procedure: Fast Channel Dissolved Minerals**
+# **Procedure: Fast Channel Dissolved Minerals**
 
 ‘2-3-mpd.am’, ‘2-3-dol.am’, ‘2-3-cal.am’ & ‘2-3-anhy.am’ are images that contain the minerals dissolved between scan 2 (33 min) and scan 3 (66 min).  That is scan 2 minus scan 3.
 
