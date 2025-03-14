@@ -202,9 +202,10 @@ Atach a histogram module to the flow field image. Generate a histogram from with
 Save histogram as .csv file. 
 
 ![ff2](https://github.com/user-attachments/assets/ca6e56fe-8b10-468c-8537-f821d92d839f)
-![ff3](https://github.com/user-attachments/assets/32d39276-8748-40ab-bf7e-bb2e0156b6b0)
 
 Copy the Darcy velocities (first column)
+
+![ff3](https://github.com/user-attachments/assets/32d39276-8748-40ab-bf7e-bb2e0156b6b0)
 
 ![ff4](https://github.com/user-attachments/assets/83493d7b-df65-4878-a72c-6a1ef424bc68)
 
