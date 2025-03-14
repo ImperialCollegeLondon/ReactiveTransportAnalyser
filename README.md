@@ -74,12 +74,10 @@ This script (**[Flowfield_Image_Alignment_Code](Flowfield_Image_Alignment_Code.p
   ![Output Folder](https://github.com/user-attachments/assets/3022c1fa-72fa-48c5-a739-092716b8bf2a)
 
 ## **Voxel Count & Pore Exposure Analysis (VoxelNumber_and_FacesToPore_Code)**
-This script (**[VoxelNumber_and_FacesToPore_Code](VoxelNumber_and _FacesToPore_Code.py)**) calculates voxel distributions and the number of faces exposed to the pore label.
+This script (**[VoxelNumber_and_FacesToPore_Code](VoxelNumber_and_FacesToPore_Code.py)**) calculates voxel distributions and the number of faces exposed to the pore label.
 
 ### **Input Files**
 - Two segmented images at different time intervals
-
-**[VoxelNumber_and_FacesToPore_Code](VoxelNumber_and _FacesToPore_Code.py)**.
 
 **Segmented Image (Label 1 to 5)**
 
