@@ -64,7 +64,7 @@ The single-phase flow simulator is available at **[Porefoam1f](https://github.co
 
 
 ## **Image Alignment Code (Flowfield_Image_Alignment_Code)**
-This script (**[Porefoam1f](https://github.com/ImperialCollegeLondon/poreFoam-singlePhase)**.) corrects misalignment between the flow field image and the segmented image from the single-phase simulation.
+This script (**[Flowfield_Image_Alignment](Flowfield_Image_Alignment_Code.py)**.) corrects misalignment between the flow field image and the segmented image from the single-phase simulation.
 
 ### **Input Files**
 - Velocities at the cell face (Ufx, Ufy, Ufz)
