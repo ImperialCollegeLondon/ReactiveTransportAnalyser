@@ -73,7 +73,7 @@ The single-phase flow simulator can be found here **[Porefoam1f](https://github.
   - Used for visualizing the velocity field in Paraview.
 
 
-# 2. Image Alignment Code
+# 2. Image Alignment Code (Flowfield_Image_Alignment_Code)
 
 This code corrects the misalignment between the flow field image and the segmented image used in the single-phase simulation. The misalignment occurs because the simulator outputs velocities at the cell face (Ufx, Ufy, Ufz) instead of at the cell center (Ux, Uy, Uz). The code adjusts for this discrepancy and calculates the velocity magnitude.
 
