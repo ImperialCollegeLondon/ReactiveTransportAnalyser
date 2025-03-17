@@ -288,7 +288,7 @@ Plot proxmity function profiles.
 ...
 
 ## Contact
-The Python codes was developed by **Sajjad Foroughi** and will be maintained by **Sajjad Foroughi** and **Olatunbosun Adedipe**. For any inquiries, please contact **Sajjad Foroughi** at [s.foroughi@imperial.ac.uk] or **Olatunbosun Adedipe** at [o.adedipe23@imperial.ac.uk].
+The Python codes was developed by **Sajjad Foroughi** and will be maintained by **Branko Bijeljic**, **Sajjad Foroughi**, and **Olatunbosun Adedipe**. For any inquiries, please contact **Branko Bijeljic** at [b.bijeljic@imperial.ac.uk], **Sajjad Foroughi** at [s.foroughi@imperial.ac.uk] or **Olatunbosun Adedipe** at [o.adedipe23@imperial.ac.uk].
 
 
 
