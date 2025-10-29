@@ -253,33 +253,31 @@ Repeat this operation for each dissolved mineral image.
 ## **Proximity Function Profiles**
 The **proximity function** quantifies mineral exposure relative to fast channels, providing insights into exposure-dependent dissolution.
 
-![Proximity Function](https://github.com/user-attachments/assets/2858d719-218a-4331-90cd-bd279eaaab1f)
+<img width="590" height="216" alt="proximity_function_formula" src="https://github.com/user-attachments/assets/230698df-43fb-4ce4-95b8-2247baf9e16d" />
 
 ### **Input Files**
 - Mineral distribution voxel count (from Proximity_VoxelNumber_Code)
-- Exposed surface area (from VoxelNumber_and_FacesToPore_Code)
+- Total mineral voxels (from VoxelNumber_and_FacesToPore_Code)
 
 ### **Output File**
-- Excel spreadsheet containing **proximity function (voxel/m²)**
+- Excel spreadsheet containing **proximity function (Mineral voxels/Total mineral voxels)**
 
 Calculate proximity function. 
 
-![proximity_1a](https://github.com/user-attachments/assets/3cc0e95f-69d2-4307-a887-1689352cdedd)
-
-![proximity_1b](https://github.com/user-attachments/assets/a8fa86a9-966f-4c1c-9f19-8814c525beda)
-
-
-Calculate difference in proximity function. 
-
-![proximity_1c](https://github.com/user-attachments/assets/527dd576-8b8e-4d38-bb1c-7845d4740a64)
+Total Mineral Voxels for Sample A:
+<img width="326" height="195" alt="Sample_A_total_mineral_voxel_number" src="https://github.com/user-attachments/assets/80127d89-4d00-4751-be5e-1bb135fe0e68" />
 
 
-![proximity_1d](https://github.com/user-attachments/assets/893a6970-cf91-41b3-af27-107e48e35f0c)
+Proximity function calculation for Dolomite in Sample A at 66 min:
+<img width="376" height="324" alt="Sample_A_mineral_proximity_example_dolomite" src="https://github.com/user-attachments/assets/cf9fb1b0-9912-4406-a18b-e28a59906977" />
+
+
 
 
 Plot proxmity function profiles.
 
-![proximity_1e](https://github.com/user-attachments/assets/07be59c7-c975-44b6-a46b-3cef8fd3d2cf)
+<img width="920" height="331" alt="Screenshot 2025-10-29 at 17 41 40" src="https://github.com/user-attachments/assets/dd53e751-cab9-4836-a201-9879b7d93600" />
+
 
 
 
