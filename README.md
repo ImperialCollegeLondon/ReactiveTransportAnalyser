@@ -274,7 +274,7 @@ Proximity function calculation for Dolomite in Sample A at 66 min:
 
 
 
-Plot proxmity function profiles for Sample A at 33, 66 and 99 min.
+Plot of proxmity function profiles for Sample A:
 
 <img width="920" height="331" alt="Screenshot 2025-10-29 at 17 41 40" src="https://github.com/user-attachments/assets/dd53e751-cab9-4836-a201-9879b7d93600" />
 
