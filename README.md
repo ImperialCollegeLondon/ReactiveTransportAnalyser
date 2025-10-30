@@ -283,7 +283,10 @@ Plot of proxmity function profiles for Sample A:
 
 
 ## References
-...
+If you use this code, please cite:
+Adedipe, O. A., Al-Khulaifi, Y., Foroughi, S., Lin, Q., Blunt, M. J., & Bijeljic, B. (2025).
+Impact of Mineral Spatial Distribution on CO₂ Dissolution Rates in Multimineral Carbonate Rocks.
+ESS Open Archive. https://doi.org/10.22541/essoar.176169610.00294276/v1
 
 ## Contact
 The Python codes was developed by **Sajjad Foroughi** and will be maintained by **Sajjad Foroughi**, and **Olatunbosun Adedipe**. For any inquiries, please contact **Branko Bijeljic** at [b.bijeljic@imperial.ac.uk] or **Sajjad Foroughi** at [s.foroughi@imperial.ac.uk] or **Olatunbosun Adedipe** at [o.adedipe23@imperial.ac.uk].
