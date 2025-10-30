@@ -1,3 +1,19 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2025 Sajjad Foroughi
+"""
+Voxel face-count and dissolution analysis utilities.
+
+Author: Dr. Sajjad Foroughi (Imperial College London)
+Contact: <optional email>
+Repository: https://github.com/ImperialCollegeLondon/ReactiveTransportAnalyser
+License: MIT
+
+If you use this code, please cite:
+Adedipe, O. A., Al-Khulaifi, Y., Foroughi, S., Lin, Q., Blunt, M. J., & Bijeljic, B. (2025).
+Impact of Mineral Spatial Distribution on CO₂ Dissolution Rates in Multimineral Carbonate Rocks.
+ESS Open Archive. https://doi.org/10.22541/essoar.176169610.00294276/v1
+"""
+
 import numpy as np
 import pandas as pd
 from skimage.io import imread
