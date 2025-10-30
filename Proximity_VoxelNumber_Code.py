@@ -4,7 +4,7 @@
 Voxel face-count and dissolution analysis utilities.
 
 Author: Dr. Sajjad Foroughi (Imperial College London)
-Contact: <optional email>
+Contact: <s.foroughi@imperial.ac.uk>
 Repository: https://github.com/ImperialCollegeLondon/ReactiveTransportAnalyser
 License: MIT
 
@@ -107,4 +107,5 @@ process_images_combined(fastflow_files, "VoxelNumber_fast_channel", image1, imag
 
 # Process slow regions files
 process_images_combined(slowregion_files, "VoxelNumber_slow_regions", image1, image2)
+
 
