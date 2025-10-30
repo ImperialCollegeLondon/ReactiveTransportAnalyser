@@ -4,7 +4,7 @@
 Voxel face-count and dissolution analysis utilities.
 
 Author: Dr. Sajjad Foroughi (Imperial College London)
-Contact: s.foroughi@imperial.ac.uk
+Contact: s.foroughi@imperial.ac.uk 
 Repository: https://github.com/ImperialCollegeLondon/ReactiveTransportAnalyser
 License: MIT
 
