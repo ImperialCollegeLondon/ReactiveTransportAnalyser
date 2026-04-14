@@ -211,7 +211,7 @@ To get the slow regions, we subtract the fast channels from the whole flow field
 ![ff13](https://github.com/user-attachments/assets/ed7c2632-acd0-4f4c-98ce-a52d3d3367c8)
 
 
-# **Outputs: Fast Channel ans Slow Region Images, Distance Maps**
+# **Outputs: Fast Channel and Slow Region Images, Distance Maps**
 
 We now have images of fast channels and slow regions, along with their corresponding distance maps. Each of these files should be exported and saved as individual .TIFF files for use in later calculations and visualizations.
 
