@@ -8,10 +8,18 @@ Contact: s.foroughi@imperial.ac.uk
 Repository: https://github.com/ImperialCollegeLondon/ReactiveTransportAnalyser
 License: MIT
 
-If you use this code, please cite:
-Adedipe, O. A., Al-Khulaifi, Y., Foroughi, S., Lin, Q., Blunt, M. J., & Bijeljic, B. (2025).
-Impact of Mineral Spatial Distribution on CO₂ Dissolution Rates in Multimineral Carbonate Rocks.
-ESS Open Archive. https://doi.org/10.22541/essoar.176169610.00294276/v1
+If you use this code or workflow in your research, please cite the following paper:
+
+> Adedipe, O. A., Al‐Khulaifi, Y., Foroughi, S., Lin, Q., Blunt, M. J., & Bijeljic, B. (2026). Impact of mineral spatial distribution on CO₂ dissolution rates in multimineral carbonate rocks. *Water Resources Research, 62*, e2025WR042362. https://doi.org/10.1029/2025WR042362
+
+## Contact
+
+For general inquiries, please contact **Branko Bijeljic**: [b.bijeljic@imperial.ac.uk](mailto:b.bijeljic@imperial.ac.uk)
+
+For questions about this tutorial, the analysis, or applications of the workflow, please contact **Olatunbosun Adedipe**: [o.adedipe23@imperial.ac.uk](mailto:o.adedipe23@imperial.ac.uk)
+
+The Python code was written by **Sajjad Foroughi**. For code-related questions, please contact him: [s.foroughi@imperial.ac.uk](mailto:s.foroughi@imperial.ac.uk)
+
 """
 
 import pandas as pd
